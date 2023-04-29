@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <div id="born">
+                <label for="ano">Ano de Nascimento: </label>
+                <input type="number" name="abi" id="ano">
+            </div>
+            <div id="sex">
+                <label for="sexo">Sexo: </label>
+                <input type="radio" name="sexo" id="sexom" checked>
+                <label for="sexom">Masculino</label>
+                <input type="radio" name="sexo" id="sexof">
+                <label for="sexof">Feminino</label>
+            </div>
+            <div id="check">
+                <input type="button" value="Verificar" id="check" onclick="verificar()">
+            </div>
+        </div>
+            
+        <div id="res">
+            <p id="msg">Preencha os dados acima para ver o resultado!</p>
+            <img src="" alt="" id="pic">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Moragas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
